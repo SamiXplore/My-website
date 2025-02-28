@@ -70,27 +70,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }, 3000);
     }
 
-    // Rainbow button animation
-    const rainbowBtn = document.querySelector('.rainbow-btn');
-    rainbowBtn.addEventListener('click', () => {
-        rainbowBtn.classList.remove('animate');
-        // Trigger reflow
-        void rainbowBtn.offsetWidth;
-        rainbowBtn.classList.add('animate');
-    });
-
-    document.querySelectorAll('.rainbow-btn').forEach(button => {
-        button.addEventListener('click', () => {
-            button.style.background = 'linear-gradient(45deg, violet, indigo, blue, green, yellow, orange, red)';
-            button.style.backgroundSize = '400% 400%';
-            button.classList.add('rainbow-active');
-            
-            setTimeout(() => {
-                button.style.background = '';
-                button.classList.remove('rainbow-active');
-            }, 2000);
-        });
-    });
+    // Function to apply configuration from config.js
+    applyConfig();
 });
 
 // Function to apply configuration from config.js
