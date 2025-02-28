@@ -17,13 +17,13 @@ const config = {
     hero: {
         expertise: "Project Manager",
         subtitle: "making sure requirements meet expectations",
-        tags: ["fluent in 2 languages", "innovator"]
+        tags: ["fluent in 4 languages", "innovator"]
     },
     
     // Skills section
     skills: {
         description: "I switch between many different tools and mediums to bring my imagination to life",
-        tags: ["fashion designer", "drawing", "stalking"]
+        tags: ["fashion designer", "drawing"]
     },
     
     // About section
