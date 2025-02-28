@@ -422,4 +422,58 @@ h1 {
     .contact-card {
         padding: 30px 20px;
     }
-} 
+}
+
+.rainbow-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: white;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.rainbow-btn.animate {
+  animation: rainbowEffect 2s ease;
+}
+
+@keyframes rainbowEffect {
+  0% { background: red; }
+  16% { background: orange; }
+  32% { background: yellow; }
+  48% { background: green; }
+  64% { background: blue; }
+  80% { background: indigo; }
+  100% { background: violet; }
+}
+
+.rainbow-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.rainbow-btn:hover {
+    background: linear-gradient(45deg, 
+        violet, indigo, blue, green, 
+        yellow, orange, red);
+    color: white;
+    transform: scale(1.05);
+}
+
+.rainbow-active {
+    animation: rainbow 2s linear infinite;
+}
+
+@keyframes rainbow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
