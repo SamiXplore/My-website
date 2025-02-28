@@ -9,7 +9,7 @@ const config = {
     traits: [
         'articulate',
         'creative',
-        'daring',
+//        'daring',
         'passionate'
     ],
     
@@ -17,7 +17,7 @@ const config = {
     hero: {
         expertise: "Project Manager",
         subtitle: "making sure requirements meet expectations",
-        tags: ["fluent in 2 languages", "linguist"]
+        tags: ["fluent in 2 languages", "innovator"]
     },
     
     // Skills section
