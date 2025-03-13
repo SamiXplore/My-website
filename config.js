@@ -59,7 +59,7 @@ const config = {
         footer: {
             text: "This page is managed by",
             agency: {
-                name: "Her Boyfriend",
+                name: "Samiksha",
                 url: "#"
             }
         }
