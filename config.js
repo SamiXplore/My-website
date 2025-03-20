@@ -15,7 +15,7 @@ const config = {
     
     // Hero section
     hero: {
-        expertise: "Hi, I'm Samiksha! I specialize in setting up tracking solutions, analyzing user behavior, and automating reports using Google Analytics 4, Google Tag Manager, and Looker Studio.",
+        expertise: "setting up tracking solutions, analyzing user behavior, and automating reports using Google Analytics 4, Google Tag Manager, and Looker Studio.",
         subtitle: "making sure requirements meet expectations",
         tags: ["fluent in 4 languages", "innovator"]
     },
@@ -23,7 +23,7 @@ const config = {
     // Skills section
     skills: {
         description: "I switch between many different tools and mediums to bring my imagination to life",
-        tags: ["fashion designer", "drawing"]
+ //       tags: ["fashion designer", "drawing"]
     },
     
     // About section
