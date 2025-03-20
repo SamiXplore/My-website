@@ -9,13 +9,13 @@ const config = {
     traits: [
         'articulate',
         'creative',
-//        'daring',
+        'daring',
         'passionate'
     ],
     
     // Hero section
     hero: {
-        expertise: "Project Manager",
+        expertise: "Hi, I'm Samiksha! I specialize in setting up tracking solutions, analyzing user behavior, and automating reports using Google Analytics 4, Google Tag Manager, and Looker Studio.",
         subtitle: "making sure requirements meet expectations",
         tags: ["fluent in 4 languages", "innovator"]
     },
@@ -49,12 +49,12 @@ const config = {
             },
             {
                 name: "Email",
-                url: "mailto:samikshan369@gmail.com"
+                url: "mailto:samikshan2000@gmail.com"
             }
         ],
         info: [
-            "Specializing in Project Management. I maintained relations with Chinese suppliers and handled all the paperwork.",
-            "I'm open for any full time role in Project Management or Innovation Management."
+            "Specializing in Digital Analytics and Performance Marketing. I have experience managing GA4 tracking, GTM implementations, and Looker Studio dashboards to optimize data-driven decision-making.",
+            "I'm open to full-time roles in Digital Analytics, Data Strategy, or Innovation Management."
         ],
         footer: {
             text: "This page is managed by",
